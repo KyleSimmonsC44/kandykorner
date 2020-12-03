@@ -6,7 +6,6 @@
   }
   
   .employee {
-      flex-basis: 28%;
       margin: 1em;
       padding: 1em;
       border: 1px solid green;
@@ -109,4 +108,9 @@ fieldset{
 .button{
     display: flex;
     justify-content: center;
+}
+
+.employeeDiv{
+    display: flex;
+    flex-direction: row;
 }

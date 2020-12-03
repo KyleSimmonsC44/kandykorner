@@ -133,6 +133,7 @@ export const EmployeeForm = (props) => {
           <button
             type="submit"
             onClick={(evt) => {
+              console.log("when will this display?")
                 evt.preventDefault(); // Prevent browser from submitting the form
                 constructNewEmployee();
             }}

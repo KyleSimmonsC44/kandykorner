@@ -18,22 +18,20 @@ export const EmployeeList = ({history}) => {
     return (
         <>
             <h1>Employees</h1>
-
                 <div className="buttonDiv">
             <button onClick={() => history.push("/employees/create")}>
                 Add Employee
             </button>
                 </div>
+
             <div className="test">
 
-            <div className="employees">
                 {
                     employees.map(employee => {
                         const location = locations.find(l => l.id === employee.locationId)
                         return <Employee key={employee.id} employee={employee} location={location} />
                     })
                 }
-            </div>
                 </div>
         </>
     )
