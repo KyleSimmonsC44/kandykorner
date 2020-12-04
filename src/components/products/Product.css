@@ -4,9 +4,21 @@
     justify-content: space-between;
   }
   
-  .product {
-      flex-basis: 28%;
-      margin: 1em;
-      padding: 1em;
-      border: 1px solid rebeccapurple;
+
+
+  .flexOption{
+      display: flex;
+  }
+
+  .addButton{
+      margin-top: 1%;
+  }
+
+  .productDiv{
+    flex-basis: 28%;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
   }

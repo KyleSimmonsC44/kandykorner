@@ -20,7 +20,10 @@ export const NavBar = (props) => {
                 <Link className="navbar__link" to="/employees">Employees</Link>
             </li>
             <li className="navbar__item">
-                <Link className="navbar__link" to="/login" onClick={()=>{clearLocalStorage()}}>logout</Link>
+                <Link className="navbar__link" to="/cart">Cart</Link>
+            </li>
+            <li className="navbar__item">
+                <Link className="navbar__link" onClick={()=>{clearLocalStorage()}}>logout</Link>
             </li>
         </ul>
     )
